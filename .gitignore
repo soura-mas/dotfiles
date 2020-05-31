@@ -3,3 +3,4 @@
 .config/karabiner/automatic_backups
 .vim/viminfo
 .vscode/extensions
+etc/Brewfile.lock.json

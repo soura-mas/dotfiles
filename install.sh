@@ -9,4 +9,4 @@ if [ ! -d dotfiles-master ]; then
   exit 1
 fi
 
-mv dotfiles-master $DOTPATH
+mv -f dotfiles-master $DOTPATH
