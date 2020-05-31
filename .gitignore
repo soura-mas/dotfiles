@@ -1,0 +1,5 @@
+.config/hub
+.config/configstore
+.config/karabiner/automatic_backups
+.vim/viminfo
+.vscode/extensions

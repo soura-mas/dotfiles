@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "'Ricty Diminished Discord', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.statusBarColors.easymotioninputmode": "#007acc",
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 0,
+    "vim.visualModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.vimrc.path": "$HOME/.vim/vimrc"
+}
