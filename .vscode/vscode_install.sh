@@ -10,9 +10,7 @@ ln -s "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
 # ln -s "$SCRIPT_DIR/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
 
 # install extention
-cat extension.lst | while read line
+cat "$SCRIPT_DIR/extension.lst" | while read line
 do
  code --install-extension $line
 done
-
-code --list-extensions > extensions
