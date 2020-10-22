@@ -1,17 +1,16 @@
 {
-    "editor.fontFamily": "'Ricty Diminished Discord', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "git.autofetch": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "vim.vimrc.enable": true,
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
-    "vim.easymotion": true,
-    "vim.statusBarColors.easymotioninputmode": "#007acc",
+    "autocompleteSymbols.enabledLanguages": ["ruby"],
+    "editor.fontFamily": "'MryicaM M', Menlo, Monaco, 'Courier New', monospace",
+    "editor.multiCursorModifier": "alt",
     "editor.renderControlCharacters": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "git.autofetch": true,
+    "hamlLint.useBundler": true,
+    "ruby.intellisense": "rubyLocate",
     "window.zoomLevel": 0,
-    "vim.visualModeKeyBindingsNonRecursive": [
-    
-    ],
-    "vim.vimrc.path": "$HOME/.vim/vimrc"
+    "workbench.startupEditor": "newUntitledFile",
+    "yaml.schemas": {
+        "http://json.schemastore.org/circleciconfig": "/.circleci/config.yml"
+    },
+    "workbench.sideBar.location": "left",
 }

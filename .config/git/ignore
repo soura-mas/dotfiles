@@ -1,4 +1,4 @@
-### https://raw.github.com/github/gitignore/e931ef7f3e7d8f7aa0e784c14bd291ad4448b1ab/Global/macOS.gitignore
+### https://raw.github.com/github/gitignore/218a941be92679ce67d0484547e3e142b2f5f6f0/Global/macOS.gitignore
 
 # General
 .DS_Store
@@ -28,7 +28,7 @@ Temporary Items
 .apdisk
 
 
-### https://raw.github.com/github/gitignore/e931ef7f3e7d8f7aa0e784c14bd291ad4448b1ab/Global/JetBrains.gitignore
+### https://raw.github.com/github/gitignore/218a941be92679ce67d0484547e3e142b2f5f6f0/Global/JetBrains.gitignore
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839

@@ -1,5 +1,5 @@
 # PATH
-export PATH="$HOME/.rbenv/shims:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$PATH"
 
 # zplug
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
