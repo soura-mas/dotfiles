@@ -46,3 +46,6 @@ jdk() {
   java -version
 }
 
+# rbenv
+eval "$(rbenv init -)"
+
