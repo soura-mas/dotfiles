@@ -19,4 +19,4 @@
 	allowed = AKIAIOSFODNN7EXAMPLE
 	allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 [init]
-	templateDir = /Users/marz/.git-templates/git-secrets
+	templateDir = ~/.gittemplate
