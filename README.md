@@ -21,8 +21,11 @@ make vscode-init
 ```
 
 
-## アップデート
-### Brewfile
+## gittemplate 
+### 既に読み込まれているフックスクリプトを編集した場合は、対象ファイルを削除したうえで、git init を行う 
 ```sh
-brew bundle dump
+$ rm path/to/repo/.git/hooks/pre-commit
+$ git init
+Reinitialized existing Git repository in /path/to/repo/.git/
 ```
+

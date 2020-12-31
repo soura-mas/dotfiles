@@ -1,2 +1,9 @@
-#!/usr/bin/env bash
-git secrets --commit_msg_hook -- "$@"
+#!/bin/bash
+
+SCRIPT_NAME=$(basename $0)
+SCRIPT_DIR=$(cd $(dirname $0);pwd)
+
+${SCRIPT_DIR}/git-secrets/${SCRIPT_NAME} "$@"
+
+exit $?
+
