@@ -46,6 +46,7 @@ jdk() {
   java -version
 }
 
-# rbenv
+# env
 eval "$(rbenv init -)"
+eval "$(nodenv init -)"
 

@@ -1,5 +1,5 @@
 [user]
-	name = Soura, Masato
+	name = soura-mas
 	email = marzdog0319@gmail.com
 [color]
 	ui = true
@@ -20,3 +20,4 @@
 	allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 [init]
 	templateDir = ~/.gittemplate
+

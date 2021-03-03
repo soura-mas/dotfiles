@@ -17,7 +17,6 @@ brew "hub"
 brew "imagemagick@6"
 brew "mas"
 brew "mysql"
-brew "nginx"
 brew "node"
 brew "postgresql", restart_service: true
 brew "ruby-build"
@@ -29,7 +28,6 @@ brew "zplug"
 brew "zsh"
 brew "heroku/brew/heroku"
 cask "1password"
-cask "adoptopenjdk8"
 cask "deepl"
 cask "docker"
 cask "firefox"
@@ -44,19 +42,11 @@ cask "integrity"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "logitech-options"
-cask "ngrok"
-cask "openoffice"
 cask "rectangle"
 cask "slack"
 cask "timemachineeditor"
-cask "virtualbox"
 cask "visual-studio-code"
 mas "EasyRes", id: 688211836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "PhotoScape X", id: 929507092
