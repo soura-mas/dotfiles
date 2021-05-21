@@ -1,4 +1,6 @@
 ### custom git ignore
 
 .idea
+.env
+Procfile.local
 
