@@ -1,5 +1,5 @@
 # PATH
-export PATH="$HOME/.rbenv/shims:/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
 
 # zplug
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
@@ -38,6 +38,9 @@ alias la="ll -a"
 
 alias dsstore_ls="find . -name '.DS_Store' -type f"
 alias dsstore_rm="dsstore_ls -delete"
+
+alias ssh="~/bin/ssh-change-profile.sh"
+
 
 # Java
 jdk() {
