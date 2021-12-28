@@ -1,5 +1,6 @@
 .config/hub
 .config/configstore
+.config/stripe
 .vim/viminfo
 .vscode/extensions
 etc/Brewfile.lock.json
