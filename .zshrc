@@ -24,4 +24,3 @@ eval "$(starship init zsh)"
 
 # asdf
 . $(brew --prefix asdf)/libexec/asdf.sh
-
