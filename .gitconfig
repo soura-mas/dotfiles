@@ -11,7 +11,9 @@
 
 [core]
 	autocrlf = input
-	hooksPath = ~/git-hooks/hooks
+	hooksPath = ~/.git-support/hooks
 
 [pull]
 	rebase = false
+[hooks]
+	gitleaks = true

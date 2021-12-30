@@ -9,5 +9,3 @@ deploy:
 brew-init:
 	@bash etc/brew_install.sh
 
-vscode-init:
-	@bash .vscode/vscode_install.sh
