@@ -112,8 +112,9 @@ fabric.properties
 
 ### custom git ignore
 
-.env
-.githooks/
+.op/
 .idea/
+
+.env
 Procfile.local
-task.local.md
+tasks.local.md
