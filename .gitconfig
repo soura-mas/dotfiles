@@ -1,6 +1,7 @@
 [user]
 	name = soura-mas
 	email = marzdog0319@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPasksu/GB7w7ul1b6ssDfURMJxoqWxTFnY7IHkDMKG4
 [color]
 	ui = true
 [filter "lfs"]
@@ -8,12 +9,16 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-
 [core]
 	autocrlf = input
 	hooksPath = ~/.git-support/hooks
-
 [pull]
 	rebase = false
 [hooks]
 	gitleaks = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

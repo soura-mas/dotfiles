@@ -1,5 +1,5 @@
 # PATH
-export PATH="$HOME/.rbenv/shims:/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
 
 # Option
 autoload -U compinit
@@ -19,8 +19,7 @@ alias dsstore_rm="dsstore_ls -delete"
 
 alias ssh="~/bin/ssh-change-profile.sh"
 
-# starship
+# init
 eval "$(starship init zsh)"
-
-# asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
+eval "$(rbenv init - zsh)"
+eval "$(nodenv init -)"

@@ -13,4 +13,3 @@ if [ "$@" = "maintenance" ] ; then
 else
   /usr/bin/ssh "$@"
 fi
-

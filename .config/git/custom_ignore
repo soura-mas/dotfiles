@@ -1,6 +1,7 @@
 ### custom git ignore
 
-.idea
 .env
+.githooks/
+.idea/
 Procfile.local
-
+task.local.md
