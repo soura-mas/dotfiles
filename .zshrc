@@ -20,6 +20,8 @@ alias dsstore_rm="dsstore_ls -delete"
 alias ssh="~/bin/ssh-change-profile.sh"
 
 # init
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 eval "$(rbenv init - zsh)"
 eval "$(nodenv init -)"
+source /Users/marz/.config/op/plugins.sh
