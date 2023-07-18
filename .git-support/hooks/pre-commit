@@ -41,7 +41,7 @@ run_gitleaks() {
     # Running _without_ `--redact` is safer in a local development
     # env, as you need unobfuscated feedback on whether you're 
     # committing a real password, or an example one.
-    cmd="$HOME/bin/gitleaks protect --staged --config=$HOME/.git-support/gitleaks.toml --verbose"
+    cmd="gitleaks protect --staged --config=$HOME/.git-support/gitleaks.toml --verbose"
     $cmd
     status=$?
     if [ $status -eq 1 ]; then
