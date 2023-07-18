@@ -176,7 +176,7 @@
       "float" : 190
     },
     "subsequentExecutionMode" : {
-      "int" : 0
+      "int" : 2
     },
     "SUEnableAutomaticChecks" : {
       "bool" : true
