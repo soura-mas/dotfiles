@@ -1,5 +1,5 @@
 # PATH
-export PATH="/usr/local/sbin:$HOME/bin:/usr/local/opt/imagemagick@6/bin:$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="$HOME/bin:/opt/homebrew/opt/imagemagick@6/bin:$HOME/.cargo/bin:$PATH"
 
 # Option
 autoload -U compinit
