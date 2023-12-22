@@ -1,8 +1,12 @@
-### custom git ignore
 
+# custom git ignore
 .op/
 .idea/
+
+config/credentials/development.key
+config/credentials/test.key
 
 .env
 Procfile.local
 tasks.local.md
+

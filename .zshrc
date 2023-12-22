@@ -25,3 +25,8 @@ eval "$(starship init zsh)"
 eval "$(rbenv init - zsh)"
 eval "$(nodenv init -)"
 source /Users/marz/.config/op/plugins.sh
+
+# Other
+## https://zenn.dev/kanazawa/articles/1c9814c9fa2a1d
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [ "$@" = "maintenance" ] ; then
+echo "$@" | xargs -n 1 | grep -qE "^maintenance$"
+if [ $? = 0 ]; then
   # set profile 
   echo -ne "\033]1337;SetProfile=$@\a"
 
