@@ -8,5 +8,4 @@ config/credentials/test.key
 
 .env
 Procfile.local
-tasks.local.md
-
+tasks.local*.md
