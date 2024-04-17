@@ -116,5 +116,6 @@ config/credentials/development.key
 config/credentials/test.key
 
 .env
+.rbenv-gemsets
 Procfile.local
 tasks.local*.md
