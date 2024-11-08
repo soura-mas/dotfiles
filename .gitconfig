@@ -11,7 +11,7 @@
 	required = true
 [core]
 	autocrlf = input
-	hooksPath = /Users/marz/git-support/hooks
+	hooksPath = /Users/marz/git-hooks/hooks
 [pull]
 	rebase = false
 [hooks]
